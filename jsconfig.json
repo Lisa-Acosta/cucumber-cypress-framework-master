@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "types": ["@shelex/cypress-allure-plugin"],
+        "noEmit": true,
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*": [
+                "./cypress/e2e/pages/*"
+            ]
+        }
+    }
+}
